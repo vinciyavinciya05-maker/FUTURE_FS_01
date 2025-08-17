@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+  <h1 class="center-title">Winciya T</h1>
+  <h4>Aspiring FullStack Developer</h4>
+  <nav>
+    <ul class="center-nav">
+      <li><a href="#career">Career Objective</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#internship">Internship</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <section id="career" class="card fade-in">
+    <h2>Career Objective</h2>
+    <p> I am a Computer Science Engineering student skilled in web development using HTML, CSS, JavaScript, Python, and Django. I 
+am seeking an opportunity where I can apply my skills and grow as a developer.</p>
+  </section>
+
+  
+<div class="resume-btn">
+  <a href="Vincy_CV.pdf" download>📄 Download Resume</a>
+</div>
+
+  
+  <section id="education" class="card slide-in">
+    <h2>Education</h2>
+    <ul>
+      <li>B.E in Computer Science Engineering - Holy Cross Engineeering College (2022-2026)</li>
+      <li>Higher Secondary - KVS Matriculation School (2020-2022)</li>
+      
+    </ul>
+  </section>
+
+  
+  <section id="skills" class="card fade-in">
+    <h2>Skills</h2>
+    <ul>
+      <li>Frontend: HTML, CSS, JavaScript, React.js</li>
+      <li>Backend: Python (Flask), Node.js</li>
+      <li>Database: MySQL, MongoDB</li>
+      <li>Tools: Git, GitHub, VS Code</li>
+    </ul>
+  </section>
+
+  
+
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="image-gallery">
+    <div class="image-card">
+      <img src="images/python course.jpg" alt="Python Certificate">
+      <p>Python Programming Certificate</p>
+    </div>
+    <div class="image-card">
+      <img src="images/internship certificate.jpg" alt="Internship Certificate">
+      <p>Internship Certificate</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="image-gallery">
+
+    
+    <div class="image-card">
+      <img src="images/Shopping Website.png" alt="E-commerce Project">
+      <h3 class="project-title">E-commerce Website (Frontend)</h3>
+      <p class="project-desc">
+        A responsive online shopping platform built with HTML, CSS, and JavaScript. 
+        It includes product listing, cart management, and a checkout layout for a smooth user experience.
+      </p>
+      
+      <p><a href="https://github.com/vinciyavinciya05-maker/Frontend_project" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+    
+    <div class="image-card">
+      <img src="images/College Feedback Form.png" alt="Flask Project">
+      <h3 class="project-title">College Feedback System (Flask)</h3>
+      <p class="project-desc">
+        A web-based feedback system developed using Python Flask. 
+        Features include student feedback submission, rating system, CSV download, and dark mode support.
+      </p>
+      
+      <p><a href="https://github.com/vinciyavinciya05-maker/Feedback_form" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<div id="fullscreen" onclick="this.style.display='none'">
+  <img id="fullimg" src="">
+</div>
+
+  
+  <section id="internship" class="card slide-in">
+    <h2>Internship</h2>
+    <p>Completed internship on FullStack Development at Digisailor Software Company where I worked on frontend and backend integration.</p>
+  </section>
+
+  
+  <section id="contact" class="card fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
